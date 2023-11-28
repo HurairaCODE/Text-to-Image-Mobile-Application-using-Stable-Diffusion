@@ -32,7 +32,7 @@ public class ImageGenerator {
         ArrayList<String> arrayList = new ArrayList<>();
         JSONObject js = new JSONObject();
         try {
-            String key = "hSsWMyMnKY0UyKDlGYdgy6RijBGTdb4PFSJvtkKbjJDXuwg4SJZwMvyNpLOd";
+            String key = "Enter your API key here";
             js.put("key", key);
             js.put("prompt", prompt);
             js.put("samples", count);
